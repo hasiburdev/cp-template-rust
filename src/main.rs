@@ -20,16 +20,10 @@ fn main() {
 
     //     println!("{}", result);
     // }
+    println!("{:#?}", leetcode::Solution::two_sum(vec![1, 2, 3, 4], 4));
     println!(
-        "{}",
-        leetcode::Solution::contains_duplicate(vec![1, 2, 3, 4])
+        "{:#?}",
+        leetcode::Solution::two_sum(vec![1, 3, 4, 2, 7, 6], 13)
     );
-    println!(
-        "{}",
-        leetcode::Solution::contains_duplicate(vec![1, 1, 1, 3, 3, 4, 3, 2, 4, 2])
-    );
-    println!(
-        "{}",
-        leetcode::Solution::contains_duplicate(vec![1, 2, 3, 4])
-    );
+    println!("{:#?}", leetcode::Solution::two_sum(vec![1, 2, 3, 4], 7));
 }
